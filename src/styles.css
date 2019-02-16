@@ -1,0 +1,104 @@
+/*  General   */
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 15px;
+  color: #fff;
+  margin: 0;
+  padding: 0;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 80%;
+  margin: auto;
+  overflow: hidden;
+}
+
+/* Styling the header */
+
+header {
+  background-color: #155f8d;
+  border-bottom: 3px orangered solid;
+}
+
+header #branding {
+  float: left;
+  margin-left: 50px;
+  margin-top: 25px;
+}
+
+#branding .highlight {
+  color: orangered;
+}
+
+header nav {
+  float: right;
+  margin-top: 50px;
+  margin-right: 60px;
+}
+
+header a {
+  text-decoration: none;
+  color: #fff;
+  text-transform: uppercase;
+}
+
+header ul li {
+  display: inline;
+  padding: 15px;
+}
+
+header a:hover {
+  font-weight: bold;
+  color: orangered;
+}
+
+/*  Styling the showecase */
+
+#showcase h1 {
+  color: #fff;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 35px;
+  margin-top: 150px;
+  line-height: 33px;
+}
+
+#showcase {
+  background-image: url("src/images/image1.jpg");
+  height: 400px;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+}
+
+/*  Styling the boxes  */
+
+#boxes {
+  background-color: rgb(4, 36, 78);
+}
+
+#boxes .box {
+  display: inline-block;
+  max-width: 98%;
+  height: auto;
+  width: 30%;
+  margin: 1%;
+}
+
+/*   styling the first section of text   */
+
+#first-section {
+  background: #155f8d;
+  height: 400px;
+  padding-top: 10px;
+}
+
+#first-section h1 {
+  text-align: center;
+  text-transform: uppercase;
+}
