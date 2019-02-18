@@ -85,11 +85,19 @@ header a:hover {
 }
 
 #boxes .box {
-  display: inline-block;
-  max-width: 98%;
-  height: auto;
-  width: 30%;
+  width: 100%;
   margin: 1%;
+  display: inline-block;
+}
+
+@media only screen and (min-width: 600px) {
+  #boxes .box {
+    width: 30%;
+  }
+}
+
+img {
+  max-width: 100%;
 }
 
 /*   styling the first section of text   */
@@ -103,4 +111,9 @@ header a:hover {
 #first-section h1 {
   text-align: center;
   text-transform: uppercase;
+}
+
+#first-section p {
+  font-size: 20px;
+  line-height: 25px;
 }
