@@ -24,6 +24,7 @@ ul {
 header {
   background-color: #155f8d;
   border-bottom: 3px orangered solid;
+  min-height: 120px;
 }
 
 header #branding {
@@ -70,10 +71,11 @@ header a:hover {
 }
 
 #showcase {
-  background-image: url("src/images/image1.jpg");
+  background-image: url('./images/image1.jpg');
   height: 400px;
   background-repeat: no-repeat;
   background-position: 50% 50%;
+  background-size: cover;
 }
 
 /*  Styling the boxes  */
