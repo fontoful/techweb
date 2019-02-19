@@ -71,7 +71,7 @@ header a:hover {
 }
 
 #showcase {
-  background-image: url('./images/image1.jpg');
+  background-image: url("src/images/image1.jpg");
   height: 400px;
   background-repeat: no-repeat;
   background-position: 50% 50%;
@@ -116,4 +116,56 @@ img {
 #first-section p {
   font-size: 20px;
   line-height: 25px;
+}
+
+/*  styling the about page   */
+
+#introduction {
+  background: #155f8d;
+  padding-top: 15px;
+  width: 80%;
+  margin: auto;
+  overflow: hidden;
+}
+
+#introduction img {
+  height: 500px;
+  float: left;
+  margin-right: 15px;
+  margin-bottom: 10px;
+  margin-left: 10px;
+}
+
+#introduction h2 {
+  color: white;
+  text-align: center;
+}
+
+#introduction p {
+  color: #fff;
+  font-size: 18px;
+  line-height: 20px;
+}
+
+/*  styling the teamwork section of the about page */
+
+#Teamwork {
+  background: orangered;
+  width: 80%;
+  margin: auto;
+  overflow: hidden;
+}
+
+#Teamwork h2 {
+  text-align: center;
+}
+
+#Teamwork .teampics {
+  text-align: center;
+}
+
+#Teamwork .teampics img {
+  height: 650px;
+  width: 650px;
+  margin: 15px;
 }
