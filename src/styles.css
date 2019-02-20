@@ -71,7 +71,7 @@ header a:hover {
 }
 
 #showcase {
-  background-image: url("src/images/image1.jpg");
+  background-image: url("./images/image1.jpg");
   height: 400px;
   background-repeat: no-repeat;
   background-position: 50% 50%;
@@ -168,4 +168,12 @@ img {
   height: 650px;
   width: 650px;
   margin: 15px;
+}
+
+footer{
+  padding:20px;
+  margin-top:20px;
+  color:#ffffff;
+  background-color:#e8491d;
+  text-align: center;
 }
