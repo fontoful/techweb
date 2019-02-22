@@ -39,8 +39,9 @@ header #branding {
 
 header nav {
   float: right;
-  margin-top: 50px;
+  margin-top: 20px;
   margin-right: 60px;
+  margin-bottom: 5px;
 }
 
 header a {
@@ -59,6 +60,10 @@ header a:hover {
   color: orangered;
 }
 
+h1 {
+  line-height: 1.3em;
+}
+
 /*  Styling the showecase */
 
 #showcase h1 {
@@ -71,7 +76,7 @@ header a:hover {
 }
 
 #showcase {
-  background-image: url("src/images/image1.jpg");
+  background-image: url("./images/image1.jpg");
   height: 400px;
   background-repeat: no-repeat;
   background-position: 50% 50%;
@@ -93,6 +98,11 @@ header a:hover {
 @media only screen and (min-width: 600px) {
   #boxes .box {
     width: 30%;
+  }
+
+  header nav {
+    margin-top: 50px;
+    margin-right: 60px;
   }
 }
 
