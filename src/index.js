@@ -1,3 +1,5 @@
+// fetching the Dom string
+
 document.getElementById("text").style.visibility = "hidden";
 
 let myTitle = document.getElementById("title");

@@ -185,5 +185,28 @@ footer {
   background-size: cover;
   background-repeat: no repeat;
   background-position: center;
-  height: 700px;
+  height: 65em;
+}
+
+#contact-people {
+  width: 100%;
+  background: rgba(255, 137, 28, 0.808);
+  overflow: hidden;
+  text-align: center;
+}
+
+.column-half {
+  display: inline-block;
+  color: black;
+  width: 50%;
+  float: left;
+}
+
+.column-half img {
+  max-width: 100%;
+}
+
+.column-half h3 {
+  color: black;
+  font-weight: bold;
 }
