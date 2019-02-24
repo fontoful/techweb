@@ -76,7 +76,7 @@ h1 {
 }
 
 #showcase {
-  background-image: url("./images/image1.jpg");
+  background-image: url("src/images/image1.jpg");
   height: 400px;
   background-repeat: no-repeat;
   background-position: 50% 50%;
@@ -95,6 +95,7 @@ h1 {
   display: inline-block;
 }
 
+/* this is what happens after passing the 600px mark */
 @media only screen and (min-width: 600px) {
   #boxes .box {
     width: 30%;
@@ -103,6 +104,14 @@ h1 {
   header nav {
     margin-top: 50px;
     margin-right: 60px;
+  }
+
+  .column-half {
+    display: inline-block;
+    color: black;
+    width: 50%;
+    float: left;
+    overflow: scroll;
   }
 }
 
@@ -116,6 +125,7 @@ img {
   background: #155f8d;
   height: 400px;
   padding-top: 10px;
+  overflow: scroll;
 }
 
 #first-section h1 {
@@ -132,10 +142,9 @@ img {
 
 #introduction {
   background: #115c8b;
-  padding-top: 15px;
-  width: 80%;
   margin: auto;
-  overflow: hidden;
+  width: 80%;
+  overflow: scroll;
 }
 
 #introduction img {
@@ -149,6 +158,7 @@ img {
 #introduction h2 {
   color: white;
   text-align: center;
+  line-height: 1em;
 }
 
 #introduction p {
@@ -168,6 +178,7 @@ img {
 
 #Teamwork h2 {
   text-align: center;
+  line-height: 1em;
 }
 
 #Teamwork .teampics {
@@ -201,14 +212,14 @@ footer {
 #contact-people {
   width: 100%;
   background: rgba(255, 137, 28, 0.808);
-  overflow: hidden;
   text-align: center;
+  overflow: scroll;
+  height: 60em;
 }
 
 .column-half {
   display: inline-block;
   color: black;
-  width: 50%;
   float: left;
 }
 
