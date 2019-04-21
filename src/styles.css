@@ -20,7 +20,20 @@ ul {
   overflow: hidden;
 }
 
+<<<<<<< HEAD
 /* Header */
+=======
+a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+a:hover {
+  font-weight: bold;
+  color: orangered;
+}
+/* Styling the header */
+>>>>>>> bd3d9dca4551f5b9a278f8092cb1f6d79ad322fd
 
 header {
   background: #155f8d;
@@ -205,4 +218,46 @@ footer {
 .column-half h3 {
   color: black;
   font-weight: bold;
+}
+
+#cuerpo {
+  background: orangered;
+  border: #ffffff solid 3px;
+  max-width: 80%;
+  margin: auto;
+  padding: 0;
+}
+
+.main-img img,
+.imgs img {
+  width: 100%;
+}
+
+.imgs {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 5px;
+}
+
+.imgs img {
+  cursor: pointer;
+}
+
+/* Fade in animation */
+@keyframes fadeIn {
+  to {
+    opacity: 1;
+  }
+}
+
+.fade-in {
+  opacity: 0;
+  animation: fadeIn var(--fade-time) ease-in 1 forwards;
+}
+
+/* Media Queries */
+@media (max-width: 600px) {
+  .imgs {
+    grid-template-columns: repeat(2, 1fr);
+  }
 }
