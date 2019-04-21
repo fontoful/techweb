@@ -6,6 +6,7 @@ body {
   color: #fff;
   margin: 0;
   padding: 0;
+  line-height: 1.6;
 }
 
 ul {
@@ -19,29 +20,23 @@ ul {
   overflow: hidden;
 }
 
-/* Styling the header */
+/* Header */
 
 header {
-  background-color: #155f8d;
-  border-bottom: 3px orangered solid;
-  min-height: 120px;
+  background: #155f8d;
+  min-height: 10rem;
+  display: flex;
+  align-content: space-between;
+  justify-content: center;
+  border-bottom: #e8491d solid 4px;
+}
+
+header .highlight {
+  color: #e8491d;
 }
 
 header #branding {
   float: left;
-  margin-left: 50px;
-  margin-top: 25px;
-}
-
-#branding .highlight {
-  color: orangered;
-}
-
-header nav {
-  float: right;
-  margin-top: 20px;
-  margin-right: 60px;
-  margin-bottom: 5px;
 }
 
 header a {
@@ -50,18 +45,19 @@ header a {
   text-transform: uppercase;
 }
 
-header ul li {
+header nav {
+  float: right;
+  margin-top: 2.2rem;
+}
+
+header li {
   display: inline;
-  padding: 15px;
+  padding: 10px;
 }
 
 header a:hover {
+  color: #e8491d;
   font-weight: bold;
-  color: orangered;
-}
-
-h1 {
-  line-height: 1.3em;
 }
 
 /*  Styling the showecase */
@@ -76,7 +72,7 @@ h1 {
 }
 
 #showcase {
-  background-image: url("src/images/image1.jpg");
+  background-image: url("./images/image1.jpg");
   height: 400px;
   background-repeat: no-repeat;
   background-position: 50% 50%;
@@ -87,45 +83,24 @@ h1 {
 
 #boxes {
   background-color: rgb(4, 36, 78);
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-gap: 5px;
 }
 
-#boxes .box {
-  width: 100%;
-  margin: 1%;
-  display: inline-block;
-}
-
-/* this is what happens after passing the 600px mark */
-@media only screen and (min-width: 600px) {
-  #boxes .box {
-    width: 30%;
-  }
-
-  header nav {
-    margin-top: 50px;
-    margin-right: 60px;
-  }
-
-  .column-half {
-    display: inline-block;
-    color: black;
-    width: 50%;
-    float: left;
-    overflow: scroll;
-  }
-}
-
-img {
+.box img {
   max-width: 100%;
+}
+
+.box {
+  text-align: center;
 }
 
 /*   styling the first section of text   */
 
 #first-section {
   background: #155f8d;
-  height: 400px;
   padding-top: 10px;
-  overflow: scroll;
 }
 
 #first-section h1 {
