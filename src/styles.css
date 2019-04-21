@@ -20,20 +20,7 @@ ul {
   overflow: hidden;
 }
 
-<<<<<<< HEAD
 /* Header */
-=======
-a {
-  color: #ffffff;
-  text-decoration: none;
-}
-
-a:hover {
-  font-weight: bold;
-  color: orangered;
-}
-/* Styling the header */
->>>>>>> bd3d9dca4551f5b9a278f8092cb1f6d79ad322fd
 
 header {
   background: #155f8d;
